@@ -9,6 +9,7 @@ RUN sed -i \
         -e 's/^#\(LoadModule .*mod_proxy.so\)/\1/' \
         -e 's/^#\(LoadModule .*mod_proxy_http.so\)/\1/' \
         -e 's/^#\(LoadModule .*mod_proxy_html.so\)/\1/' \
+        -e 's/^#\(LoadModule .*mod_rewrite.so\)/\1/' \
     /usr/local/apache2/conf/httpd.conf \
     && mkdir -p /usr/local/apache2/proxies \
     && mkdir -p /usr/local/apache2/ssl \
