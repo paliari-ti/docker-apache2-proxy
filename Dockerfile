@@ -1,4 +1,4 @@
-FROM httpd:2.4
+FROM httpd:2.4.33
 
 LABEL maintainer="Marcos Paliari <marcos@paliari.com.br>"
 
